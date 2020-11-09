@@ -17,6 +17,6 @@ mkdir /media/upnp
 chmod 777 /media/upnp
 
 # uprava grubu k zapamatovani posledni zvolene pozice
-cp -f /home/$SUDO_USER/scripty/Install-Scripty/init/Data/etc/default/grub /etc/default/
+cp -f $PWD/Data/etc/default/grub /etc/default/
 update-grub
 
