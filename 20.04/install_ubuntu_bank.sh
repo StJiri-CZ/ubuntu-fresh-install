@@ -15,7 +15,7 @@ apt-get remove unity-scope-clementine unity-scope-musique unity-scope-musicstore
 
 apt-get update
 
-apt-get install gparted exfat-fuse hfsprogs p7zip p7zip-full p7zip-rar simple-scan synaptic chromium-browser pepperflashplugin-nonfree openjdk-8-jdk openjdk-8-jre keepassx compizconfig-settings-manager compiz-plugins compiz-plugins-main compiz-plugins-extra unity-tweak-tool ubuntu-restricted-extras jayatana notify-osd network-manager-openvpn-gnome -y
+apt-get install gparted exfat-fuse x11-utils hfsprogs p7zip p7zip-full p7zip-rar simple-scan synaptic chromium-browser pepperflashplugin-nonfree openjdk-8-jdk openjdk-8-jre keepassx compizconfig-settings-manager compiz-plugins compiz-plugins-main compiz-plugins-extra unity-tweak-tool ubuntu-restricted-extras jayatana notify-osd network-manager-openvpn-gnome -y
 
 apt-get update
 
