@@ -28,6 +28,8 @@ apt-get install dconf-editor gnome-tweaks cifs-utils net-tools samba-common samb
 
 apt-get update
 
-apt-get remove gnome-shell
+apt-get upgrade
 
 apt-get update
+
+apt-get autoremove
