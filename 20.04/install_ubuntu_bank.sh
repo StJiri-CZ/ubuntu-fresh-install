@@ -19,9 +19,11 @@ apt-get install gparted exfat-fuse hfsprogs p7zip p7zip-full p7zip-rar simple-sc
 
 apt-get update
 
-apt-get upgrade
+apt-get upgrade -y
 
-apt-get autoremove
+apt-get update
+
+apt-get autoremove -y
 
 cd ~
 
