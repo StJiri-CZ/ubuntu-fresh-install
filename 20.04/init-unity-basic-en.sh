@@ -8,6 +8,10 @@ fi
 
 touch ~/.jss-basicinit-done
 
+#zkopirujeme cast konfiguraku, zbytek udelame po syncu
+echo "Kopíruji první část konfiguráků, zbytek proveď až po syncu"
+cp -vfr $PWD/Data/config/ /home/$USER/.config/
+
 #Vytvorime adresare
 echo "Vytvářím profilové adresáře"
 chmod 700 /home/$USER #kvuli apachovi
@@ -24,10 +28,6 @@ cd /home/$USER/Backup
 mkdir Quick
 
 cd /home/$USER
-
-#zkopirujeme cast konfiguraku, zbytek udelame po syncu
-echo "Kopíruji první část konfiguráků, zbytek proveď až po syncu"
-cp -vfr $PWD/Data/config/ /home/$USER/.config/
 
 #install Joplin
 echo "Instaluji Joplin"
