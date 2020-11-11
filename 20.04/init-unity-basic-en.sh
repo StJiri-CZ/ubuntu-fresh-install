@@ -10,7 +10,7 @@ touch ~/.jss-basicinit-done
 
 #zkopirujeme cast konfiguraku, zbytek udelame po syncu
 echo "Kopíruji první část konfiguráků, zbytek proveď až po syncu"
-cp -vfr $PWD/Data/config/. /home/$USER/.config/
+cp -vfR $PWD/Data/config/* /home/$USER/.config/
 
 #Vytvorime adresare
 echo "Vytvářím profilové adresáře"
