@@ -7,19 +7,6 @@ fi
 
 apt-get update
 
-apt-get install  -y
-case $(uname -m) in
-#	i386|i686) cd i386 && dpkg -i *.deb && cd ..;;
-	x86_64) cd x86_64 && dpkg -i *.deb && cd ..;;
-	*) echo "neznam" ;;
-esac
-cd ..
-cd ..
-
-cd ~
-
-apt-get update
-
 #DoubleCommander
 sh -c "echo 'deb http://download.opensuse.org/repositories/home:/Alexx2000/xUbuntu_20.04/ /' > /etc/apt/sources.list.d/home:Alexx2000.list"
 wget -nv https://download.opensuse.org/repositories/home:Alexx2000/xUbuntu_20.04/Release.key -O Release.key
